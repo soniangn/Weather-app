@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header>
+          <div class="date-city">
+            <p id="date"></p>
+            <h1 id="city"></h1>
+          </div>
+          <div class="searchbar">
+            <form id="city-form">
+              <input type="text" id="city-input" placeholder="enter new city" />
+              <button type="submit" id="search-button">Search</button>
+            </form>
+          </div>
+          <div class="searchbar-currentcity">
+            <form id="currentcity-form">
+              <button type="submit" id="currentcity-button">Current</button>
+            </form>
+          </div>
+        </header>
+        <div class="current-weather">
+          <div class="text-weather">
+            <div class="today-temperature">
+              <p id="current-temperature"></p>
+              <div class="temperature-unit">
+                <a href="" id="celsius-unit">°C </a>
+                <p>|</p>
+                <a href="" id="fahrenheit-unit">°F</a>
+              </div>
+            </div>
+            <p id="sky"></p>
+            <p class="realfeels"></p>
+          </div>
+          <div class="emoji">
+            <p>☀️</p>
+          </div>
+        </div>
+        
+        <div class="row info-plus">
+          <div class="col-4 humidity">
+              <p class="parameters">💧</p>
+              <p id="humidity"></p>
+          </div>
+          <div class="col-4 max-min">
+              <p class="parameters">🌡</p>
+              <p id="max-min-temp">
+                <span class="max-temp"></span>
+                <span>-</span> 
+                <span class="min-temp"></span>
+              </p>
+          </div>
+          <div class="col-4 wind">
+              <p class="parameters">🌬</p>
+              <p id="wind"></p>
+          </div>
+        </div>
+
+        <div class="row next-days">
+          <div class="col sat">
+              <div class="card">
+                  <div class="body">
+                      <p>Sat</p>
+                      <p class="sky">☀️</p>
+                      <p class="max">33°C</p>
+                      <p class="min">20°C</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col sun">
+              <div class="card">
+                  <div class="body">
+                      <p>Sun</p>
+                      <p class="sky">☀️</p>
+                      <p class="max">31°C</p>
+                      <p class="min">18°C</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col mon">
+              <div class="card">
+                  <div class="body">
+                      <p>Mon</p>
+                      <p class="sky">☀️</p>
+                      <p class="max">38°C</p>
+                      <p class="min">18°C</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col tue">
+              <div class="card">
+                  <div class="body">
+                      <p>Tue</p>
+                      <p class="sky">☀️</p>
+                      <p class="max">32°C</p>
+                      <p class="min">20°C</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col wed">
+              <div class="card">
+                  <div class="body">
+                      <p>Wed</p>
+                      <p class="sky">☀️</p>
+                      <p class="max">31°C</p>
+                      <p class="min">20°C</p>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+    </main>
+    <script src="src/script.js"></script>
+  </body>
+</html>
+

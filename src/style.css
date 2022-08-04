@@ -1,0 +1,145 @@
+main {
+    margin: 30px 50px;
+    padding: 15px 10px;
+    width: 500px;
+    height: 580px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .date-city p {
+    margin-bottom: 5px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #city-input {
+    border: none;
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #search-button, #currentcity-button {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+
+  #search-button {
+    background-color: #385170;
+    color: #fff;
+    margin: 0 5px; 
+  }
+
+  #currentcity-button {
+    background-color: #9fd3c7;
+    margin: 0;
+  }
+
+  .current-weather {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+ 
+  .text-weather {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #sky {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  .today-temperature {
+    display: flex;
+  }
+
+  #current-temperature {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .temperature-unit {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+
+  #celsius-unit {
+    padding-right: 4px;
+  }
+  
+  #fahrenheit-unit {
+    padding-left: 4px;
+  }
+
+  .current-weather .sky {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .realfeels {
+    font-size: 12px;
+  }
+  
+  .emoji {
+    font-size: 60px;
+    line-height: 140px;
+    padding-left: 15px;
+  }
+  
+  .info-plus {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .info-plus .parameters {
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .next-days {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .next-days .min {
+    font-size: 12px;
+  }
+  
+  .next-days p {
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .next-days .sky {
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #e3f6f5;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  }
+  
+  .humidity,
+  .max-min {
+    border-right: 1px solid #79c2d0;
+  }
+  
